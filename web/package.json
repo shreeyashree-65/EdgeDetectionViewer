@@ -1,0 +1,19 @@
+{
+  "name": "edge-viewer-web",
+  "version": "1.0.0",
+  "description": "Web viewer for edge detection frames",
+  "main": "dist/viewer.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "npx http-server public -p 8080"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/glob": "^9.0.0",
+    "@types/minimatch": "^6.0.0",
+    "minimatch": "^10.1.1"
+  }
+}
